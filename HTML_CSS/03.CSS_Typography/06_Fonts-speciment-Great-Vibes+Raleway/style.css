@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Lato&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Great+Vibes&family=Lato&family=Raleway&display=swap');
+
+
+html{
+    margin: 20px;
+    padding: 50px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2{
+    font-family: Great Vibes, cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.square{
+    list-style-type: square;
+}
+
+.disc{
+    list-style-type: disc;
+}
+
+.circle{
+    list-style-type: circle;
+}
