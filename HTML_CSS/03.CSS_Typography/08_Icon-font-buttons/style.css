@@ -1,0 +1,17 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+button{
+    margin: 5px;
+    padding: 5px;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.green{
+    background-color: rgb(6, 160, 6);
+}
+
+.yellow {
+    background-color: orange;
+}
