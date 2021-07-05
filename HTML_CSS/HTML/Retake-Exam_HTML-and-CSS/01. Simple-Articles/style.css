@@ -47,7 +47,7 @@ section .info ul{
 .first{
     padding: 18px;
     background: #e3f3fd;
-    margin-right: 0;
+    margin-right: 20px;
 }
 
 .first ul li{
@@ -64,7 +64,7 @@ section .info ul{
     border: 5px solid #44a9f8;
     text-align: center;
     font-size: 18px;
-    margin-left: 0;
+    margin-left: 20px;
 }
 
 .second h2,
