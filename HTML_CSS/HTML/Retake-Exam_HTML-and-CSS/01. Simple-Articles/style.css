@@ -2,80 +2,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
 
-body{
+html{
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    color: #596877;
+    line-height: 2;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Montserrat', sans-serif;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
 }
 
 section {
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    max-width: 1270px;
-    margin: 100px auto;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
 }
 
-.list {
-    background: #E3F3FD;
-    border-radius: 12px;
-    box-shadow: 1px 1px 3px 0px grey;
+.info {
+    flex-basis: 50%;
+    max-width: 550px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
-.list h2 {
-    margin: 20px 40px;
+section .info h2,
+section .info ul{
+    padding-left: 18px;
+}
+.first{
+    padding: 18px;
+    background: #e3f3fd;
 }
 
-.list ul{
-    margin: 0 20px 40px;
-}
-
-.list li{
+.first ul li{
     list-style-type: none;
 }
 
-.fas{
-    color: #50AFF8;
+.first ul li i{
+    color: #63b7f9;
+    padding-right: 8px;
 }
 
-.price {
-    border: 3px solid #44A9F8;
-    width: 500px;
-    height: 220px;
-    border-radius: 12px;
-}
-
-.price-heading{
+.second{
+    padding: 58px;
+    border: 5px solid #44a9f8;
     text-align: center;
-    margin-top: 50px;
-    font-weight: 500;
-    color: #919191;
+    font-size: 18px;
 }
 
-.price-heading span{
-    color: #50AFF8;
-    font-size: 45px;
+.second h2,
+.second h3 {
+    display: inline-block;
 }
 
-.price-middle-text{
-    text-align: center;
-    font-weight: bold;
-    color: #919191;
+.second h2 {
+    color: #44a9f8;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
 }
 
-.btn{
-    background: #44A9F8;
+.second h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.apply {
+    text-transform: uppercase;
+    padding: 8px 30px;
     color: white;
-    border-radius: 20px;
-    border-color: #44A9F8;
-    text-align: center;
+    background: #44a9f8;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
