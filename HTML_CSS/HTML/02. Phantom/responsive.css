@@ -1,0 +1,58 @@
+@media all and (max-width: 900px){
+    .tiles{
+        margin: 0;
+    }
+    
+    .tiles >article{
+        width: 40%;
+        margin: 2.5em 0 0 2em;
+    }
+}
+
+@media all and (max-width: 600px){
+    .tiles{
+        flex-direction: column;
+        }
+
+        .tiles >article{
+            width: 100%;
+            margin: 2.5em 0 0 0;
+        }
+
+        #footer{
+            display: flex;
+        }
+
+        #footer > .inner{
+            flex-direction: column;
+            padding: 0 40px;
+            
+            
+        }
+        #footer > ul{
+            display: flex;
+        }
+
+        #footer > .inner section:nth-child(1){
+            margin: 0;
+            width: auto;
+            margin-bottom: 20px;
+        }
+        #footer > .inner section:nth-child(2){
+            margin: 0;
+            width: auto;
+        }
+
+        .fields {
+            flex-direction: column;
+        }
+
+        form > .fields > .field.half{
+            width: 100%;
+        }
+
+        .primary{
+            width: 485px;
+        }
+}
+

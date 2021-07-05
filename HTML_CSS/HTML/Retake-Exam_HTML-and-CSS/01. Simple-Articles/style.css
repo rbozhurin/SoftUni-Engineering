@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    max-width: 1270px;
+    margin: 100px auto;
+}
+
+.list {
+    background: #E3F3FD;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px 0px grey;
+}
+
+.list h2 {
+    margin: 20px 40px;
+}
+
+.list ul{
+    margin: 0 20px 40px;
+}
+
+.list li{
+    list-style-type: none;
+}
+
+.fas{
+    color: #50AFF8;
+}
+
+.price {
+    border: 3px solid #44A9F8;
+    width: 500px;
+    height: 220px;
+    border-radius: 12px;
+}
+
+.price-heading{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 500;
+    color: #919191;
+}
+
+.price-heading span{
+    color: #50AFF8;
+    font-size: 45px;
+}
+
+.price-middle-text{
+    text-align: center;
+    font-weight: bold;
+    color: #919191;
+}
+
+.btn{
+    background: #44A9F8;
+    color: white;
+    border-radius: 20px;
+    border-color: #44A9F8;
+    text-align: center;
+}
